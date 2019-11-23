@@ -25,12 +25,12 @@
 				<div class="logo">
 					<img src="images/logo.png" alt="logo yameogo" />
 				</div>
-				<nav>
+				<nav class="navbar navbar-inverse">
 					<ul>
-						<li><a href="#anchor-slideshow">Accueil</a></li>
-						<li><a href="#anchor-services">Compétences</a></li>
-						<li><a href="#anchor-projects">Projets</a></li>
-						<li><a href="#anchor-contact">Contact</a></li>
+						<li><a href="./index.html#anchor-slideshow">Accueil</a></li>
+						<li><a href="./index.html#anchor-services">Compétences</a></li>
+						<li><a href="./index.html#anchor-projects">Projets</a></li>
+						<li><a href="./index.html#anchor-contact">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -66,64 +66,14 @@
 				<div class="next_button" onclick="plusSlides(1)">
 					<span>&#10095;</span>
 				</div>	
+				<div class="row">
+ 					 <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+				</div>
 			</div>
 
 
-			<span class="anchor" id="anchor-services"></span>
-			<section id="services">
-				<h2>Mes compétences</h2>
-
-				<div class="splitter">
-					<div class="underline_blue_dot"></div>
-				</div>
-
-				<p class="section_intro">Dans cette section, vous trouverez tout ce qu'il y'a à savoir sur moi en terme de connaissances(Certificats, langages de programmations etc).</p>
-
-				<div class="service_content">
-
-					<img src="images/main-feature1.png" alt="samu" />
-
-					<div class="services_details">
-						<div class="services_icon">
-
-							<i class="fas fa-certificate fa-2x"></i>
-							<div class="icon_blue_dot"></div>
-						</div>
-
-						<div class="services_speech">
-							<h3>Certification</h3>
-							<a href="competences.html#anchor-certificat"><p>Consulter tous mes certificats</p></a>
-							
-						</div>
-
-						<div class="services_icon">
-							<i class="fab fa-dev fa-2x"></i>
-							<div class="icon_blue_dot"></div>
-						</div>
-
-						<div class="services_speech">
-							<h3>Languages de programmations</h3>
-							<a href="competences.html#anchor-lp"><p>Consulter mes compétences en langage de programmation</p></a>
-						</div>
-
-						<div class="services_icon">
-							<i class="fas fa-chart-pie fa-2x"></i>
-							<div class="icon_blue_dot"></div>                		
-						</div>
-
-						<div class="services_speech">
-							<h3>Business Intelligences</h3>
-							<a href="competences.html#anchor-bi"><p>Consulter </p></a>
-						</div>
-					</div>
-
-				</div>
-			</section>
-
-
-
-			<span class="anchor" id="anchor-projects"></span>
-			<section id="projects">
+			<span class="anchor" id="anchor-js"></span>
+			<section id="js">
 
 				<h2>Mes projets</h2>
 
@@ -135,9 +85,9 @@
 
 				<div class="works">
 					<ul>
-						<li class="all_works1">JEE<span></span></li>
-						<a href="projets.html#anchor-js"><li class="creative">JavaScript<span></span></li></a>
-						<li class="corporate"><a href="projets.html#anchor-py">Python</a><span></span></li>
+						<a href="./index.html#anchor-projects"><li class="all_works">JEE<span></span></li>
+						<li class="creative1">JavaScript<span></span></li>
+						<a href="projets.html#anchor-py"><li class="corporate">Python<span></span></li></a>
 						<a href="projets.html#anchor-dn"><li class="portfolio">DotNet<span></span></li></a>
 					</ul>
 				</div>
@@ -234,45 +184,6 @@
 				<p></p>
 			</section>
 
-
-			<span class="anchor" id="anchor-contact"></span>
-			<section id="contact">
-				<h2>Contact</h2>
-
-				<div class="splitter">
-					<div class="underline_blue_dot"></div>
-				</div>
-				<div class="contact_container">
-					<div id="map">
-					</div>
-					<div class="blue_filter">
-						<div><iframe allowfullscreen="" frameborder="0" height="450" width="600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.5003807340663!2d-6.86884768470994!3d33.97967898062576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76cc334a66611%3A0xee9ee437a0cfbaea!2sInstitut+National+des+Postes+et+T%C3%A9lecomunications!5e0!3m2!1sfr!2s!4v1493032439938" style="border:0" width="600"></iframe></div>
-						<div class="contact_background">
-
-							<div class="contact_info">
-								<h5>Contact Info</h5>
-								<h6>YAMEOGO Samuel</h6>   
-								<p>Avenue Allal Al Fassi, Rabat</p>
-								<p><span>Tel :</span> +212 600028349</p>
-								<p></p>
-								<a href="https://linkedin.com/in/samuel-yameogo-30a884184/"><i class="fab fa-linkedin"></i></a>
-								<a href="https://twitter.com/samuelyameogo"><i class="fab fa-twitter-square"></i></a>
-								<a href="https://github.com/yameogosamuel/"><i class="fab fa-github"></i></a>
-							</div>
-
-							<form method="post" action="send.php">
-								<input type="text" name="name" maxlength="40" placeholder="Nom">
-								<input type="email" name="email" maxlength="40" placeholder="Email">
-								<input type="text" name="subject" maxlength="40" placeholder="Sujet">
-								<textarea name="Message" rows="5" cols="30" placeholder="Message"></textarea>
-								<input type="submit" value="Send message" class="form_button" />
-							</form>
-
-						</div>
-					</div>
-				</div>
-			</section>
-
 		</div>
 
 
@@ -281,6 +192,10 @@
 
 		<script src="JS/map.js">
 		</script>
+
+		    
+        
+        
 
 	</body>
 </html>
