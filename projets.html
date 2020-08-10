@@ -1,201 +1,107 @@
 <!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="utf-8" />
-		<!-- SEO, favicon and viewport-->
-		<meta name="description" content="L'agence de tous vos projets !">
-		<meta name="keyworks" content="projet, web, agence">
-		<meta name="author" content="WebAgency">
-		<link rel="icon" href="images/ico/favicon.ico" type="image/x-icon">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Style sheets -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<!-- <link rel="stylesheet" href="css/bootstrap.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" /> -->
-		<link rel="stylesheet" href="css/fontawesome-all.min.css" />
-		<script src="https://kit.fontawesome.com/9341e45747.js" crossorigin="anonymous"></script>
-		<title>Site YAMEOGO Samuel</title>
-	</head>
-	<body>
-		<div id="main_wrapper">
+<html lang="en">
 
-			<header>
-				<div class="logo">
-					<img src="images/logo.png" alt="logo yameogo" />
-				</div>
-				<nav class="navbar navbar-inverse">
-					<ul>
-						<li><a href="./index.html#anchor-slideshow">Accueil</a></li>
-						<li><a href="./index.html#anchor-services">Compétences</a></li>
-						<li><a href="./index.html#anchor-projects">Projets</a></li>
-						<li><a href="./index.html#anchor-contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-			<span class="anchor" id="anchor-slideshow"></span>
-			<div id="slideshow">
-				<div class="slide fade">
-					<img src="images/slider/bg1.jpeg" alt="Slide" />
-					<div class="slide_textbox">
-						<h1><span class="AgencyName">YAMEOGO Samuel</span></h1>
-						<h3 class="red">Elève Ingénieur des Systèmes Web, mobiles et décisionels </h3>
-						<br>
-						<br>
-						<h1>Soyez les bienvenues!!!</h1>
-						<a href="#anchor-services">Plus d'infos</a>
-					</div>
-				</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Site YAMEOGO Samuel</title>
+</head>
 
-				<div class="slide fade">
-					<img src="images/slider/bg1.jpg" alt="Slide" />
-					<div class="slide_textbox">
-						<h1><span class="AgencyName">YAMEOGO Samuel</span></h1>
-						<h3>élève Ingénieur des Systèmes Web, mobiles et décisionels </h3>
-						<br>
-						<br>
-						<h1>Soyez les bienvenues!!!</h1>
-						<a href="#anchor-services">Plus d'infos</a></div>
-				</div>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <a class="navbar-brand" href="#"> <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="40" width="51"></a></a>
+             <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Acceuil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./competences.html"><img src="img/comp_g.png" height="21" width="27"> Compétences</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><img src="img/pro_l.png" height="21" width="20"> Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contacts.html"><span class="fa fa-address-card fa-lg"></span> Contacts</a></li>
+                </ul>
+             </div>             
+        </div>
+    </nav>
 
-				<div class="prev_button" onclick="plusSlides(-1)">
-					<span>&#10094;</span>
-				</div>
-				<div class="next_button" onclick="plusSlides(1)">
-					<span>&#10095;</span>
-				</div>	
-				<div class="row">
- 					 <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
-				</div>
-			</div>
+    <div class="jumbotron">
+        <video id="video-background" preload muted autoplay loop>
+            <source src="img/jumbotron.mp4" type="video/mp4">
+        </video>
+        <div class="containerC">
+            <div class="col-12 col-sm mt-5">
+                <h1>SOYEZ LES BIENVENUES</h1>
+                <h2>sur le site officiel de YAMEOGO Samuel</h2>
+            </div>
+            <div class="col-12 col-sm">
+                <img src="img/logo_l.png" height="80" width="102">
+            </div>
+        </div>
+    </div>
 
+    <div class="container"> 
 
-			<span class="anchor" id="anchor-js"></span>
-			<section id="js">
+        Cette partie est celle des projets
 
-				<h2>Mes projets</h2>
+    </div>
+    
+    <div class="jumbotronf">
+        <div class="row">             
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Liens</h5>
+                <ul class="list-unstyled">
+                    <li><a href="./index.html">Acceuil</a></li>
+                    <li><a href="./competences.html">Compétences</a></li>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="./contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="col-7 col-sm-5">
+                <h5>Mon adresse</h5>
+                <address>
+                    2 Avenue Allal Al Fassi,<br>
+                    Madinat Al Irfane, Rabat,<br>
+                    MAROC<br>
+                  <i class="fa fa-phone fa-lg"></i> : +212 602008349<br>
+                  <i class="fa fa-envelope fa-lg"></i> : 
+                  <a href="mailto:confusion@food.net">samuelyameogo2@gmail.com</a>
 
-				<div class="splitter">
-					<div class="underline_blue_dot"></div>
-				</div>
+               </address>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/samuel.yameogo.16"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/samuel-yameogo-30a884184/"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/SamuelYAMEOGO"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCSap3uEdZTr-tKmgHOoNp_g?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                </div>
 
-				<p class="section_intro">Consultez l'ensemble de mes projets</p>
+            </div>
+       </div>
+    </div>
+    <footer >
+        <div class="row justify-content-center footer">             
+            <div class="col-auto">
+                <p class="text-light">© Copyright 2020 YAMEOGO Samuel  <img src="img/logo_l.png" height="25" width="31"></p>
+            </div>
+       </div>
+    </footer>
 
-				<div class="works">
-					<ul>
-						<a href="./index.html#anchor-projects"><li class="all_works">JEE<span></span></li>
-						<li class="creative1">JavaScript<span></span></li>
-						<a href="projets.html#anchor-py"><li class="corporate">Python<span></span></li></a>
-						<a href="projets.html#anchor-dn"><li class="portfolio">DotNet<span></span></li></a>
-					</ul>
-				</div>
-
-				<div class="projects_samples">
-					<div class="project_layer">
-						<img src="images/jee/01.jpg" alt="jee1" />
-						<div class="project_details">
-							<h4>"Gestion de personnels"</h4>
-							<p>jee et jstl</p>
-							<div class="see_more_button">
-								<a href="https://github.com/yameogosamuel/"><i class="fab fa-github"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/jee/02.jpg" alt="jee2" />
-						<div class="project_details">
-							<h4>"Gestion de personnels"</h4>
-							<p>jee/springRest, angular et bootstrap</p>
-							<div class="see_more_button">
-								<a href="https://github.com/yameogosamuel/gestionPersonnelsSpringAngular"><i class="fab fa-github"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/jee/03.jpg" alt="jee3" />
-						<div class="project_details">
-							<h4>"Application de covoiturage"</h4>
-							<p>jee, jsp et bootstrap</p>
-							<div class="see_more_button">
-								<a href="https://github.com/yameogosamuel/projet_covoiturage"><i class="fab fa-github"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/jee/04.jpg" alt="jee4" />
-						<div class="project_details">
-							<h4>"Application de gestion de stock"</h4>
-							<p>Stage technique: jee/springBoot, bootstrap</p>
-							<div class="see_more_button">
-								<a href="https://github.com/yameogosamuel/projet_covoiturage"><i class="fab fa-github"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/jee/05.jpg" alt="jee5" />
-						<div class="project_details">
-							<h4>"Bientôt"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href="https://github.com/yameogosamuel/"><i class="fab fa-github"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/jee/05.jpg" alt="jee6" />
-						<div class="project_details">
-							<h4>"Bientôt"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href="https://github.com/yameogosamuel/"><i class="fab fa-github"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/jee/05.jpg" alt="jee7" />
-						<div class="project_details">
-							<h4>"Bientôt"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href="https://github.com/yameogosamuel/"><i class="fab fa-github"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="project_layer">
-						<img src="images/jee/05.jpg" alt="jee8" />
-						<div class="project_details">
-							<h4>"Bientôt"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href="https://github.com/yameogosamuel/"><i class="fab fa-github"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<p></p>
-				<p></p>
-			</section>
-
-		</div>
-
-
-        <script src="JS/app.js">
-		</script>
-
-		<script src="JS/map.js">
-		</script>
-
-		    
-        
-        
-
-	</body>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="js/scripts.js"></script>
+     
+</body>
 </html>

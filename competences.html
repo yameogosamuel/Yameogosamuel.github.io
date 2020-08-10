@@ -1,301 +1,107 @@
 <!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="utf-8" />
-		<!-- SEO, favicon and viewport-->
-		<meta name="description" content="L'agence de tous vos projets !">
-		<meta name="keyworks" content="projet, web, agence">
-		<meta name="author" content="WebAgency">
-		<link rel="icon" href="images/ico/favicon.ico" type="image/x-icon">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Style sheets -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<!-- <link rel="stylesheet" href="css/bootstrap.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" /> -->
-		<link rel="stylesheet" href="css/fontawesome-all.min.css" />
-		<script src="https://kit.fontawesome.com/9341e45747.js" crossorigin="anonymous"></script>
-		<title>Site YAMEOGO Samuel</title>
-	</head>
-	<body>
-		<div id="main_wrapper">
+<html lang="en">
 
-			<header>
-				<div class="logo">
-					<img src="images/logo.png" alt="logo yameogo" />
-				</div>
-				<nav>
-					<ul>
-						<li><a href="./index.html#anchor-slideshow">Accueil</a></li>
-						<li><a href="./index.html#anchor-services">Compétences</a></li>
-						<li><a href="./index.html#anchor-projects">Projets</a></li>
-						<li><a href="./index.html#anchor-contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-			<span class="anchor" id="anchor-slideshow"></span>
-			<div id="slideshow">
-				<div class="slide fade">
-					<img src="images/slider/bg1.jpeg" alt="Slide" />
-					<div class="slide_textbox">
-						<h1><span class="AgencyName">YAMEOGO Samuel</span></h1>
-						<h3 class="red">Elève Ingénieur des Systèmes Web, mobiles et décisionels </h3>
-						<br>
-						<br>
-						<h1>Soyez les bienvenues!!!</h1>
-						<a href="./index.html#anchor-services">Plus d'infos</a>
-					</div>
-				</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Site YAMEOGO Samuel</title>
+</head>
 
-				<div class="slide fade">
-					<img src="images/slider/bg1.jpg" alt="Slide" />
-					<div class="slide_textbox">
-						<h1><span class="AgencyName">YAMEOGO Samuel</span></h1>
-						<h3>élève Ingénieur des Systèmes Web, mobiles et décisionels </h3>
-						<br>
-						<br>
-						<h1>Soyez les bienvenues!!!</h1>
-						<a href="./index.html#anchor-services">Plus d'infos</a></div>
-				</div>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <a class="navbar-brand" href="#"> <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="40" width="51"></a></a>
+             <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Acceuil</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><img src="img/comp_l.png" height="21" width="27"> Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./projets.html"><img src="img/pro_g.png" height="21" width="20"> Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contacts.html"><span class="fa fa-address-card fa-lg"></span> Contacts</a></li>
+                </ul>
+             </div>             
+        </div>
+    </nav>
 
-				<div class="prev_button" onclick="plusSlides(-1)">
-					<span>&#10094;</span>
-				</div>
-				<div class="next_button" onclick="plusSlides(1)">
-					<span>&#10095;</span>
-				</div>	
-			</div>
+    <div class="jumbotron">
+        <video id="video-background" preload muted autoplay loop>
+            <source src="img/jumbotron.mp4" type="video/mp4">
+        </video>
+        <div class="containerC">
+            <div class="col-12 col-sm mt-5">
+                <h1>SOYEZ LES BIENVENUES</h1>
+                <h2>sur le site officiel de YAMEOGO Samuel</h2>
+            </div>
+            <div class="col-12 col-sm">
+                <img src="img/logo_l.png" height="80" width="102">
+            </div>
+        </div>
+    </div>
 
-			<span class="anchor" id="anchor-certificat"></span>
-			<section id="certificat">
+    <div class="container"> 
 
-				<h2>Mes certificats</h2>
+        Cette partie est celle des compétences
 
-				<div class="splitter">
-					<div class="underline_blue_dot"></div>
-				</div>
+    </div>
 
-				<p class="section_intro">Vous trouverez ici mes certificats</p>
+    <div class="jumbotronf">
+        <div class="row">             
+            <div class="col-4 offset-1 col-sm-2">
+                <h5>Liens</h5>
+                <ul class="list-unstyled">
+                    <li><a href="./index.html">Acceuil</a></li>
+                    <li><a href="#">Compétences</a></li>
+                    <li><a href="./projets.html">Projets</a></li>
+                    <li><a href="./contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="col-7 col-sm-5">
+                <h5>Mon adresse</h5>
+                <address>
+                    2 Avenue Allal Al Fassi,<br>
+                    Madinat Al Irfane, Rabat,<br>
+                    MAROC<br>
+                  <i class="fa fa-phone fa-lg"></i> : +212 602008349<br>
+                  <i class="fa fa-envelope fa-lg"></i> : 
+                  <a href="mailto:confusion@food.net">samuelyameogo2@gmail.com</a>
 
-				
-				<div class="projects_samples">
-					<div class="project_layer">
-						<img src="images/certi/bi.jpg" alt="certi1" />
-						<div class="project_details">
-							<h4>"Certificat Microsoft Power BI"</h4>
-							<p>Business intelligence</p>
-							<div class="see_more_button">
-								<a href="https://www.udemy.com/certificate/UC-6Z3OYJSM/"><i class="fas fa-eye"></i></a>
-							</div>
-						</div>
-					</div>
+               </address>
+            </div>
+            <div class="col-12 col-sm-4 align-self-center">
+                <div class="text-center">
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/samuel.yameogo.16"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/samuel-yameogo-30a884184/"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/SamuelYAMEOGO"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCSap3uEdZTr-tKmgHOoNp_g?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                </div>
 
-					<div class="project_layer">
-						<img src="images/certi/knime.jpg" alt="certi2" />
-						<div class="project_details">
-							<h4>"Certificat KNIME"</h4>
-							<p>Business intelligence</p>
-							<div class="see_more_button">
-								<a href="https://www.udemy.com/certificate/UC-HWHAZ726/"><i class="fas fa-eye"></i></a>
-							</div>
-						</div>
-					</div>
+            </div>
+       </div>
+    </div>
+    <footer >
+        <div class="row justify-content-center footer">             
+            <div class="col-auto">
+                <p class="text-light">© Copyright 2020 YAMEOGO Samuel  <img src="img/logo_l.png" height="25" width="31"></p>
+            </div>
+       </div>
+    </footer>
 
-					<div class="project_layer">
-						<img src="images/certi/poo.jpg" alt="certi3" />
-						<div class="project_details">
-							<h4>"Certificat Programmation Orientée Objet"</h4>
-							<p>Concept</p>
-							<div class="see_more_button">
-								<a href="https://www.udemy.com/certificate/UC-REMTO7M9/"><i class="fas fa-eye"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/certi/certi.jpg" alt="certi4" />
-						<div class="project_details">
-							<h4>"A venir"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href=""><i class="fas fa-eye"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/certi/certi.jpg" alt="certi4" />
-						<div class="project_details">
-							<h4>"A venir"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href=""><i class="fas fa-eye"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/certi/certi.jpg" alt="certi4" />
-						<div class="project_details">
-							<h4>"A venir"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href=""><i class="fas fa-eye"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/certi/certi.jpg" alt="certi4" />
-						<div class="project_details">
-							<h4>"A venir"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href=""><i class="fas fa-eye"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/certi/certi.jpg" alt="certi4" />
-						<div class="project_details">
-							<h4>"A venir"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<a href=""><i class="fas fa-eye"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<p></p>
-				<p></p>
-			</section>	
-
-
-			<span class="anchor" id="anchor-lp"></span>
-			<section id="lp">
-
-				<h2>Les languages de programmations et frameworks</h2>
-
-				<div class="splitter">
-					<div class="underline_blue_dot"></div>
-				</div>
-
-				<p class="section_intro"></p>
-
-				
-				<div class="projects_samples">
-					<div class="project_layer">
-						<img src="images/lp/java.png" alt="lp1" />
-						<div class="project_details">
-							<h4>"Java"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<i class="fas fa-eye"></i>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/lp/node.png" alt="lp2" />
-						<div class="project_details">
-							<h4>"JavaScript"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<i class="fas fa-eye"></i>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="project_layer">
-						<img src="images/lp/py.png" alt="lp3" />
-						<div class="project_details">
-							<h4>"Python"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<i class="fas fa-eye"></i>
-							</div>
-						</div>
-					</div>
-
-
-
-					<div class="project_layer">
-						<img src="images/lp/dot.jpg" alt="lp4" />
-						<div class="project_details">
-							<h4>"DotNet"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<i class="fas fa-eye"></i>
-							</div>
-						</div>
-					</div>
-
-
-					<div class="project_layer">
-						<img src="images/lp/spring.png" alt="lp5" />
-						<div class="project_details">
-							<h4>"Framework Spring"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<i class="fas fa-eye"></i>
-							</div>
-						</div>
-					</div>
-
-
-
-					<div class="project_layer">
-						<img src="images/lp/mongo.jpg" alt="lp6" />
-						<div class="project_details">
-							<h4>"MongoDB"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<i class="fas fa-eye"></i>
-							</div>
-						</div>
-					</div>
-
-					<div class="project_layer">
-						<img src="images/lp/my.png" alt="lp7" />
-						<div class="project_details">
-							<h4>"MySQL"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<i class="fas fa-eye"></i>
-							</div>
-						</div>
-					</div>
-
-					
-					<div class="project_layer">
-						<img src="images/lp/php.png" alt="lp8" />
-						<div class="project_details">
-							<h4>"PHP"</h4>
-							<p></p>
-							<div class="see_more_button">
-								<i class="fas fa-eye"></i>
-							</div>
-						</div>
-					</div>
-
-
-				<p></p>
-				<p></p>
-			</section>	
-
-
-        <script src="JS/app.js">
-		</script>
-
-		<script src="JS/map.js">
-		</script>
-
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCanautZ2s7QoJaszr79jgpvY1bZpqmqFA&callback=initMap" async defer >
-		</script>
-
-	</body>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="js/scripts.js"></script>
+     
+</body>
 </html>

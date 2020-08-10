@@ -1,0 +1,128 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.jumbotronf {
+  background-color: #DDD2E1;
+  margin: 0px auto;
+  padding: 70px 30px;
+}
+
+
+/* .jumbotron {
+  margin: 0px auto;
+  padding: 20px 0px; 
+  padding: 70px 30px;
+  color: floralwhite; 
+} */
+
+.jumbotron{
+  margin: 0px auto;
+  padding: 70px 30px;
+  position: relative;
+    overflow: hidden;
+    height: 500px;
+ 
+  /* Tried setting the height. Didnt work either */
+  /* height: 200px; */
+}
+.containerC {
+  position: relative; 
+  color: floralwhite;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.containerD {
+  position: relative; 
+  color: floralwhite;
+  border: 1px solid #CC2C9C;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+#video-background{ 
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+/* .navbar-dark {
+  background-color: #B6ACBE; } */
+
+.navbar-dark {
+  background-color: #4F3E5C; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+.headerbg {
+  background: #512DA8;
+  color:  floralwhite}
+.bodybg {
+  background: #D1C4E9; }
+.text {
+  color: floralwhite;}
+.carousel {
+  background: #512DA8; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
+
+  .footer {
+    background-color: #686868;
+    margin: 0px auto;
+    padding: 20px 0px; }
+
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
