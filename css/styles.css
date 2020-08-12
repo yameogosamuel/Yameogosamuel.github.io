@@ -44,10 +44,15 @@
 .containerD {
   position: relative; 
   color: floralwhite;
-  border: 1px solid #CC2C9C;
+  text-decoration: 1px solid #CC2C9C;
   margin-left: auto;
   margin-right: auto;
   text-align: right;
+}
+
+.containerA {
+  margin: 0px auto;
+  position: relative;
 }
 
 #video-background{ 
